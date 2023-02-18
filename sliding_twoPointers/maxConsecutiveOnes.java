@@ -13,7 +13,7 @@ class Solution {
 			if(arr[ep] == 0) numOfZeroesInCurrWindow++;
 
 			// -------------------
-			// shrink until window is valid
+			// shrink until window is Invalid.
 			while(numOfZeroesInCurrWindow > k){
 				if(arr[sp] == 0) numOfZeroesInCurrWindow--;
 				sp++;
