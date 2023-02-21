@@ -40,7 +40,6 @@ public class Main {
 	   q.add(src);
 	   int cnt = 0;
 
-	   while(q.size()>0 && t>0){
 		   t--;
 		   int sz = q.size();
 		   while(sz-- > 0){
